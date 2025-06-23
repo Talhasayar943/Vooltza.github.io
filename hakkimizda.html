@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hakkımızda - VoltZA</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Üst border */
+   
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background-color:#00022A;
+      border-bottom: 1px solid #ccc;
+      flex-wrap: wrap;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      
+    }
+
+    .navbar img {
+      height: 40px;
+      margin-right: 20px;
+    }
+
+    .navbar a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 600;
+      padding-bottom: 6px;
+      border-bottom: 2px solid transparent;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
+    /* Navbar link alt çizgisi */
+    .navbar a:hover,
+    .navbar a:focus {
+      color: #007bff;
+      border-bottom-color: #007bff;
+    }
+
+    /* Mevcut sayfada aktif görünmesi için (örnek) */
+    .navbar a.active {
+      color: #007bff;
+      border-bottom-color: #007bff;
+    }
+
+    /* Mobil navbar */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        border-left: none;
+        border-right: none;
+      }
+
+      .navbar img {
+        margin-bottom: 10px;
+      }
+
+      .navbar a {
+        margin: 8px 0;
+      }
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      flex: 1;
+      padding: 40px 30px;
+      max-width: 900px;
+      margin: 50px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+      text-align: center;
+      color: #0056b3;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #007bff;
+    }
+
+    .footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 17px;
+      margin-top: auto;
+      letter-spacing: 0.02em;
+      border-top: 4px solid #0056b3;
+    }
+
+    .footer span {
+      font-weight: 600;
+    }
+
+    a {
+      color: #004085;
+      text-decoration: none;
+      border-bottom: 1px dashed #004085;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #002752;
+      border-bottom: 1px solid #002752;
+    }
+
+    @media (max-width: 600px) {
+      .overlay {
+        margin: 20px 15px;
+        padding: 25px 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-border"></div>
+
+  <nav class="navbar">
+    <img src="resimler/VoltZA22 .png" alt="Logo" style="height: 50px; width: 100px;" />
+    <a href="index.html" >Anasayfa</a>
+    <a href="hizmetlerimiz.html">Hizmetlerimiz</a>
+    <a href="hakkimizda.html" class="active">Hakkımızda</a>
+    <a href="index.html">
+      
+    </a>
+  </nav>
+
+  <main class="overlay">
+    <h1>VoltZA &mdash; Müşteri Dostu, Güvenilir Hizmet</h1>
+    <p>
+      1993 yılından beri faaliyet gösteren <span class="highlight">VoltZA</span> dükkanımız, müşterilerimizin ihtiyaçlarını her zaman ön planda tutan, <strong>güvenilir ve samimi</strong> bir hizmet anlayışıyla çalışmaktadır.
+    </p>
+    <p>
+      Güneş panelleri alanında uzmanlığımızın yanı sıra, elektrik sektöründe de köklü bir geçmişimiz vardır. <span class="highlight">Sayar Elektrik</span> adlı şirketimizde; her türlü elektrik bobinaj sarımı, paskara motor sarımı gibi hizmetlerle sizlere profesyonel çözümler sunmaktayız.
+    </p>
+    <p>
+      Müşteri memnuniyeti ve kaliteli işçilik, bizim için sadece bir söz değil, her gün sahada gösterdiğimiz bir taahhüttür. Elektrik ve enerji sektörlerinde ihtiyaç duyduğunuzda, her an yanınızda olduğumuzu bilmenizi isteriz.
+    </p>
+    <p>
+      VoltZA ve Sayar Elektrik olarak, teknoloji ve deneyimi birleştirerek, en doğru çözümleri sunmak için çalışıyoruz. Sizin için buradayız, çünkü <strong>güven</strong> bizim temel değerimizdir.
+    </p>
+    <p style="font-style: italic; color: #555;">
+      “Güçlü yarınlar, doğru enerjiyle başlar.”
+    </p>
+
+    <p>
+      Ayrıca <strong>İstanbul Unkapanı</strong>'nda bulunan şubemiz, sizlere daha hızlı ve yerinde destek sağlamak amacıyla hizmet vermektedir. Şube adresi için bize ulaşabilirsiniz.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <span>Telefon:</span> 0555 123 45 67 İstanbul; | Unkapanı |Küçük pazar 📍 <span>Şube:</span> İstanbul Unkapanı
+  </footer>
+
+</body>
+</html>

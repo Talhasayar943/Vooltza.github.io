@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hizmetlerimiz</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+   
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #00022A;
+      border-bottom: 1px solid #ccc;
+      flex-wrap: wrap;
+    }
+
+    .navbar img {
+      height: 40px;
+      margin-right: 20px;
+    }
+
+    .navbar a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #007bff;
+    }
+
+    .main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .main h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    .service {
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .service h2 {
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+
+    .service p {
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #007bff;
+      color: white;
+      margin-top: 40px;
+    }
+
+    /* Mobil uyumluluk */
+    @media (max-width: 768px) {
+      .main {
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar img {
+        margin-bottom: 10px;
+      }
+
+      .navbar a {
+        margin: 8px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-border"></div>
+
+  <nav class="navbar">
+    <a href="index.html">
+      <img src="resimler/VoltZA22 .png" alt="Logo" style="height: 50px; width: 100px;" />
+    </a>
+    <a href="index.html">Anasayfa</a>
+    <a href="hizmetlerimiz.html">Hizmetlerimiz</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+  </nav>
+
+  <main class="main">
+    <h1>Hizmetlerimiz</h1>
+
+    <section class="service">
+      <h2>Güneş Paneli Tamiri</h2>
+      <p>Arızalanan veya verim kaybı yaşayan güneş panellerinizi uzman ekibimizle kontrol ediyor, tamir ve bakımını en kısa sürede gerçekleştiriyoruz.</p>
+    </section>
+
+    <section class="service">
+      <h2>Elektrik Kablosu Döşeme</h2>
+      <p>Ev, iş yeri veya sanayi yapılarında kaliteli ve güvenli elektrik kablolama hizmeti sunuyoruz. Profesyonel döşeme ile elektrik tesisatınız sorunsuz çalışır.</p>
+    </section>
+
+    <section class="service">
+      <h2>Elektrik Montaj İşleri</h2>
+      <p>Aydınlatma sistemleri, sigorta kutuları, prizler, şalterler ve diğer tüm elektrik ekipmanlarının montajını titizlikle yapıyoruz.</p>
+    </section>
+
+    <section class="service">
+      <h2>Elektrikli Araç Şarj Cihazı Montaj ve Tamiri</h2>
+      <p>Elektrikli araçlar için ev veya ticari şarj istasyonu kurulumları, arıza tespiti ve tamir hizmetleri sunuyoruz. Geleceğin enerjisine bugünden geçin.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Bize Ulaşın: 0555 123 45 67
+  </footer>
+
+</body>
+</html>
+
